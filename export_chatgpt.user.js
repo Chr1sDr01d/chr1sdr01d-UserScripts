@@ -26,7 +26,7 @@
             GM_setClipboard(markdownText);
             alert('Chat content copied to clipboard in Markdown format!');
         } else if (exportType === 'obsidian') {
-            const obsidianURL = `obsidian://new?vault=MacAir Vault&content=${encodeURIComponent(markdownText)}`;
+            const obsidianURL = `obsidian://new?vault=[VAULTNAME]&content=${encodeURIComponent(markdownText)}`;
             const link = document.createElement('a');
             link.href = obsidianURL;
             link.download = `ChatGPTExport.md`;
