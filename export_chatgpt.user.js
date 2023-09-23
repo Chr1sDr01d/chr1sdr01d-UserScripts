@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.9
 // @description  Export OpenAI chat to Obsidian or Clipboard in Markdown format
-// @author       You
+// @author       chr1sdr01d
 // @match        https://chat.openai.com/*
 // @grant        GM_setClipboard
 // ==/UserScript==
